@@ -10,10 +10,8 @@ describe("StakingContract", function () {
     let user2;
     let user3;
     
-    const MINIMUM_STAKE = ethers.parseEther("100");
     const STAKE_AMOUNT = ethers.parseEther("1000");
     const MINIMUM_LOCK_PERIOD = 7 * 24 * 60 * 60; // 7 days
-    const REWARD_RATE = 10; // 10%
     
     beforeEach(async function () {
         [owner, user1, user2, user3] = await ethers.getSigners();
