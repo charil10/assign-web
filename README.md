@@ -14,8 +14,6 @@ webbuddy-assign/
 ├── contracts/           # Smart contracts
 │   ├── StakingContract.sol    # Main staking contract
 │   └── MockToken.sol          # Mock ERC-20 token
-├── scripts/            # Deployment and interaction scripts
-│   └── deploy.js      # Contract deployment script
 ├── test/               # Test files
 │   └── StakingContract.test.js # Comprehensive test suite
 ├── frontend/           # Web interface
@@ -104,7 +102,7 @@ npm run build
 ### 1. Connect Wallet
 - Open the frontend in your browser
 - Click "Connect Wallet" to connect MetaMask
-- Ensure you're connected to the correct network (localhost:8545 for local development)
+- Ensure you're connected to the correct network (localhost:3000 for local development)
 
 ### 2. Stake Tokens
 - Enter the amount of tokens you want to stake
@@ -138,7 +136,6 @@ npm run build
 - ReentrancyGuard protection
 - Pausable functionality
 - Access control for admin functions
-- SafeMath for overflow protection
 - Emergency recovery functions
 
 ### Gas Optimizations
@@ -235,11 +232,3 @@ npx hardhat test --verbose
 
 MIT License - see LICENSE file for details
 
-## Roadmap
-
-- [ ] Multi-chain deployment
-- [ ] Advanced reward mechanisms
-- [ ] Governance features
-- [ ] Mobile application
-- [ ] API documentation
-- [ ] Performance benchmarking
