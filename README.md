@@ -2,7 +2,7 @@
 
 This project implements a comprehensive blockchain solution with smart contracts, security features, and integration capabilities.
 
-## Private Key for Testing UX with Mock Tokens:
+## Private Key for Testing with Mock Tokens:
 ```
 4b15b797162efe4ff5a8adea1f781e1282fca3a090041ca7b79c4a378466ad76
 ```
