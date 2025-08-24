@@ -228,7 +228,3 @@ The project includes a comprehensive system design document (`docs/SystemDesign.
 npx hardhat test --verbose
 ```
 
-## License
-
-MIT License - see LICENSE file for details
-
